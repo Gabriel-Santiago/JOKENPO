@@ -1,6 +1,5 @@
 from random import *
 
-
 def choose_computer():
     computer = randint(0, 2)
     return computer
@@ -13,7 +12,6 @@ def choose_player():
             2 - Tesoura
             :'''))
     return player
-
 
 def winner():
     list = ['Pedra', 'Papel', 'Tesoura']
